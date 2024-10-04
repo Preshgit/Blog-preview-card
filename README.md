@@ -6,13 +6,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 - [Final Words](#final-words)
 
 ## Overview
@@ -23,7 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![alt text](image.png)
+![a blog preview card](image.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/Preshgit/Blog-preview-card)
+- Live Site URL: [Add live site URL here](https://preshgit.github.io/Blog-preview-card/)
 
 ## My process
 
@@ -35,67 +39,51 @@ Users should be able to:
 
 ### What I learned
 
-During this project, I deepened my understanding of using **Flexbox** for layout structuring. Flexbox allowed me to easily center elements within the webpage by leveraging properties like justify-content and align-items. This made aligning content more efficient compared to older techniques like using margins or positioning. With Flexbox, I could quickly align my elements horizontally and vertically, creating a more responsive and visually balanced design.
+During this project, I deepened my understanding of using **Flexbox** for layout structuring. Using the column and row Flexbox arrangement. Flexbox allowed me to easily center elements within the webpage by leveraging properties like justify-content and align-items. This made aligning content more efficient. With Flexbox, I could quickly align my elements horizontally and vertically, creating a more responsive and visually balanced design.
 
-Additionally, I gained experience working with **IDs and Class selectors** in CSS. I learned how to target specific elements using their unique ID attributes, like _#title_ and _#paragraph_, to apply distinct styles for text formatting and spacing. This was useful in the case where I needed to apply styles to one particular element, while class selectors were effective for reusable styles across multiple elements, even though i didnt use class selectors in this particular project, but i am happy that i now understand these.
+Additionally, I gained experience working with **Class selectors** in CSS. I learned how to target specific elements using their unique ID attributes to apply distinct styles for text formatting and spacing. This was useful in the case where I needed to apply styles to one particular element, while class selectors were effective for reusable styles across multiple elements.
 
-These concepts helped streamline my approach to both layout and styling, making the overall design process more intuitive and structured.
-
-I also learned to write **Markdown syntax** and understood the difference between **WYSIWYG** (What You See Is What You Get) and Markdown’s more manual, code-based approach to formatting. This project marks my first experience creating a **README** file, which has been both educational and rewarding!
+I also learned to style hyper links.
 
 ```html
-<div>
-  <h1 id="title">Improve your front-end skills by building projects</h1>
-  <p id="paragraph">
-    Scan the QR code to visit Frontend Mentor and take your coding skills to the
-    next level
-  </p>
-</div>
+<body>
+  <main>
+    <div class="top">
+      <img class="ill" alt="illustration-art" src="images/illustration-article.svg"/>
+      <h1>Learning</h1>
+      <p>Published 21 Dec 2023</p>
+      <h2>HTML & CSS foundations</h2>
+      <p class="par">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    <div class="footer">
+      <img class="avater" alt="image-avater" src="images/image-avatar.webp"/>
+      <p class="par1" >Greg Hooper</p>
+    </div>
+  </main>  
+</body>
 ```
 
 ```css
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: #d5e1ef;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h2{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: color 200ms ease-in-out;
 }
-
-#title {
-  font-family: outfit;
-  font-size: 22px;
-  color: #1f314f;
-  margin-top: 24px;
-}
-
-#paragraph {
-  font-family: outfit;
-  font-size: 15px;
-  color: #68778d;
-  margin-top: 16px;
-  margin-bottom: 24px;
+h2:hover{
+    color: #F4D04E;
 }
 ```
 
 ### Continued development
 
-Code will be reviewed to make sure it it absolutely responsive across multiple devices.
-
-### Useful resources
-
-- [Flexbox](https://www.youtube.com/watch?v=K74l26pE4YA) - This short youtube video helped me to understand how to use Flexbox.
-- [markdownguide](https://www.markdownguide.org/) - This article was incredibly helpful in teaching me how to write Markdown syntax. I quickly applied what I learned to create this README file. And yes, this is the very first README file I've ever written! :)
+Code will be reviewed to make sure it absolutely responsive across multiple devices.
 
 ## Author
 
 - Frontend Mentor - [@Preshgit](https://www.frontendmentor.io/profile/Preshgit)
 - X - [@presh_ot](https://x.com/presh_OT)
-
-## Acknowledgments
-
-A huge thank you to my front-end senior colleague - [@kinghorey](https://github.com/KingHorey), whose guidance and support were instrumental in helping me navigate the intricacies of Flexbox and CSS. Thank You Ore!
 
 ## Final Words
 
